@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/tailwind.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-gray-100 grid lg:grid-cols-2 2xl:grid-cols-5">
+        <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+            <div class="xl:max-w-xl">
+                <img class="h-10" src="img/logo.svg" alt="Workation">
+                <img class="mt-6 lg:hidden sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center rounded-lg shadow-xl"
+                    src="img/beach-work.jpg" alt="woman workcationing on the beach">
+                <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">You can
+                    work
+                    from anywhere.
+                    <br class="hidden lg:inline ">
+                    <span class="text-indigo-500"> Take advantage of it.</span>
+                </h1>
+                <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos, assumenda quibusdam in animi corporis libero laudantium cupiditate laboriosam
+                    consequuntur alias vitae quidem iusto perspiciatis earum accusantium nam voluptatem.
+                    Quas, dicta!
+                </p>
+                <div class="mt-4 sm:mt-6 space-x-1">
+                    <a href="#!" class="buttonPrimary shadow-lg hover:-translate-y-0.5 transform transition ">Book your escape</a>
+                    <a href="#!" class=" buttonSecondary test">Learn more</a>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="hidden relative lg:block 2xl:col-span-3">
+            <img class="absolute inset-0 w-full h-full object-center object-cover" src="img/beach-work.jpg"
+                alt="woman workcationing on the beach">
+
+        </div>
+    </div>
+</body>
+</html>

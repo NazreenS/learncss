@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .test{
+    color:brown;
+} */
+
+@layer components {
+  
+    .buttonPrimary {
+      @apply inline-block uppercase rounded-lg px-5 py-3 tracking-wider text-sm sm:text-base  bg-indigo-500
+      hover:bg-indigo-400  md:hover:bg-purple-400  focus:outline-none focus:ring focus:ring-offset-2
+      focus:ring-indigo-500 focus:ring-opacity-50  active:bg-indigo-600  text-white;
+    }
+    .buttonSecondary {
+      @apply inline-block uppercase rounded-lg px-5 py-3 tracking-wider text-sm sm:text-base  bg-gray-300
+      hover:bg-gray-200   focus:outline-none focus:ring focus:ring-offset-2
+      focus:ring-gray-300 focus:ring-opacity-50  active:bg-gray-400  text-gray-800;
+    }
+    .btn {
+      @apply px-4 py-2 bg-blue-600 text-white rounded;
+    }
+  }
+  .font-quick{
+    font-family: 'Quicksand', sans-serif;
+  }
