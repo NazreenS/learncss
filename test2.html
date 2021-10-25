@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/tailwind.css">
     <link rel="stylesheet" href="src/style.css">
-    
+
     <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,31 +17,42 @@
 </head>
 
 <body class="bg-gray-100">
-  <!-- container-->
+    <!-- container-->
     <div class="mx-28 my-10">
-       <!-- navbar -->
+        <!-- navbar -->
         <nav>
             <div class="flex justify-between space-x-60">
-                
-                    <div class="">
-                        <a href="#" class="flex items-center py-4 px-2">
-                            <img src="img/griyalogo-removebg-preview.png" alt="Logo" class="h-200 w-80 mr-2">
 
-                        </a>
+                <div class="">
+                    <a href="#" class="flex items-center py-4 px-2 sm:py-0">
+                        <img src="img/griyalogo-removebg-preview.png" alt="Logo"
+                            class="h-200 w-80 mr-2 sm:h-14 sm:w-32 lg:h-auto lg:w-80">
 
-                    </div>
-                    <div class="flex items-center space-x-10 text-2xl font-extralight">
-                        <a href=""class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 transition
+                    </a>
+
+                </div>
+                <!-- <div class="block lg:hidden">
+                        <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                        </button>
+                      </div> -->
+                <div class="flex items-center space-x-10 text-2xl font-extralight      ">
+                    <a href=""
+                        class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 transition
                           transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">Home</a>
-                        <a href=""class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 transition 
+                    <a href=""
+                        class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 transition 
                          transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">Features</a>
-                        <a href="" class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400
-                         transition transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">Downdload</a>
-                        <a href=""class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 
-                        transition  transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">About Us</a>
-                    </div>
-                
-                <div class="flex items-center space-x-10 text-2xl">
+                    <a href=""
+                        class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400
+                         transition transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">Download</a>
+                    <a href=""
+                        class="py-4 px-2 text-gray-400 font-quick font-semibold hover:text-blue-400 
+                        transition  transform duration-300 hover:-translate-y-0.5 border-transparent border-b-2 hover:border-blue-500">About
+                        Us</a>
+                </div>
+
+                <div class="flex items-center space-x-10 text-2xl  ">
                     <a href=""
                         class="py-2 px-2 font-medium text-blue-400 rounded  hover:text-gray-400 transition duration-300 ">Login</a>
                     <a href=""
@@ -51,31 +62,38 @@
             </div>
 
         </nav>
-        
+
         <!-- grid -->
-       <div class=" grid grid-cols-5 px-10  py-28">
-           <div class="col-span-2">
-               <h1 class="text-blue-400  font-quick text-2xl font-extrabold pb-5">Smart Home</h1>
-               <h1 class="text-7xl font-extrabold text-gray-800">Make everything <br> feel <span class="text-blue-400"> easy </span></h1>
-               <p class="text-gray-400 text-xl font-bold font-quick py-10">Application to control the smart tuning available in <br> your home remotely</p>
-               <div class="button-cls py-10">
-                <a href="" class="py-5 px-16  text-xl font-medium text-white bg-blue-400 shadow-2xl  rounded-2xl hover:bg-gray-200 transition duration-300">Try Now</a>
-               </div>
-               <div class="py-12">
-                    <p class="fas fa-check-circle text-2xl"> 
-                        <span class="text-gray-400  text-2xl font-bold font-quick px-4 py-10">  Connected to various smart devices </span>
+        <div class=" grid grid-cols-5 px-10  py-28 sm:py-10 lg:py-28">
+            <div class="col-span-2">
+                <h1 class="text-blue-400  font-quick text-lg sm:text-lg lg:text-2xl  font-extrabold pb-5">Smart Home
+                </h1>
+                <h1 class="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-gray-800">Make everything
+                    feel <span class="text-blue-400"> easy </span></h1>
+                <p class="text-gray-400 text-xl font-bold font-quick py-10">Application to control the smart tuning
+                    available in <br> your home remotely</p>
+                <div class="button-cls py-10">
+                    <a href=""
+                        class="py-5 px-16  text-xl font-medium text-white bg-blue-400 shadow-2xl  rounded-2xl hover:bg-gray-200 transition duration-300">Try
+                        Now</a>
+                </div>
+                <div class="py-12">
+                    <p class="fas fa-check-circle text-2xl">
+                        <span class="text-gray-400  text-2xl font-bold font-quick px-4 py-10"> Connected to various
+                            smart devices </span>
                     </p>
-                    <p class="fas fa-check-circle text-2xl py-6"> 
-                        <span class="text-gray-400  text-2xl font-bold font-quick px-4 ">  Controlling your home in real time </span>
+                    <p class="fas fa-check-circle text-2xl py-6">
+                        <span class="text-gray-400  text-2xl font-bold font-quick px-4 "> Controlling your home in real
+                            time </span>
                     </p>
                 </div>
             </div>
-            <div class="col-span-3">
-               
+            <div class="col-span-3 ">
+
                 <img src="img/unnamed.png" alt="image" class="w-full">
             </div>
-       </div>
-        
+        </div>
+
     </div>
 </body>
 
